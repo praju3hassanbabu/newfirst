@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T11:12:40.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5299003000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RegistrationDemo.demo()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Register in DemoWebShop",
+        "description": "",
+        "id": "demowebshop-feature;register-in-demowebshop",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2101147700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user enters the url of DemoWebShp",
+            "match": {
+              "location": "RegistrationDemo.user_enters_the_url_of_DemoWebShp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1665268900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters the data for registration",
+            "match": {
+              "location": "RegistrationDemo.user_enters_the_data_for_registration()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37459100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is registered successfully",
+            "match": {
+              "location": "RegistrationDemo.user_is_registered_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DemoWebShop feature",
+    "description": "",
+    "id": "demowebshop-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sekeleton/registerwebdemo.feature",
+    "tags": []
+  }
+]
